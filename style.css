@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+.header {
+    background-image: url("bukhara.jpeg");
+    display: flex;
+    flex-wrap: wrap;
+    width: 1400px;
+    height: 700px;
+    background-size: cover;
+}
+
+.logo {
+    text-align: center;
+    margin-top: -50px;
+    margin-left: 200px;
+    width: 220px;
+    height: 150px;
+    border-radius: 50px;
+    background: rgba(224, 185, 115, 1);
+}
+
+
+.logo-h1 {
+    font-size: 30px;
+}
+
+.navbar-end {
+    color: white;
+    margin-left: 250px;
+    display: inline;
+    align-content: space-around;
+    justify-content: space-around;
+    text-decoration: none;
+    width: 700px;
+    height: 80px;
+}
+
+.navbar-item {
+    justify-content: space-around;
+    margin: 30px 10px;
+    height: 70px;
+    font-size: 20px;
+}
+
+.welcome {
+
+    align-items: center;
+    margin: -200px 200px 0;
+}
+
+.footer{
+    width: auto;
+    height: 150px;
+    background: rgba(0, 66, 137, 1);
+}
