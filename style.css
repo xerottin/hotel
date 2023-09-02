@@ -13,13 +13,12 @@
 }
 
 .header {
-    backdrop-filter: blur(100%);
-    background-image: url("bukhara.jpeg");
+    background-image: url("img/main4.jpg");
     /*filter: grayscale();*/
     display: flex;
     flex-wrap: wrap;
-    width: 1400px;
-    height: 700px;
+    width: auto;
+    height: 650px;
     background-size: cover;
 }
 
@@ -39,7 +38,7 @@
 }
 
 .navbar-end {
-    color: white;
+    color: #362b27;
     margin-left: 250px;
     display: inline;
     align-content: space-around;
@@ -50,9 +49,14 @@
 }
 
 .navbar-item {
+    padding-top: 7px;
+    text-align: center;
+    width: 150px;
+    border-radius: 50px;
+    background-color: rgba(224, 185, 115, 1);
     justify-content: space-around;
-    margin: 30px 10px;
-    height: 70px;
+    margin: 20px 10px;
+    height: 40px;
     font-size: 20px;
 }
 
@@ -93,6 +97,16 @@
 }
 .niz{
     width: 100%;
-    height: 250px;
+    height: 100px;
+    background-color: #004b91;
 
 }
+.columns-niz{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.column-niz{
+    display: flex;
+}
+/*carousel*/
