@@ -110,9 +110,14 @@
     display: flex;
 }
 /* start body-2 */
-.room-columns{
-    margin: 50px 0;
+.body-2{
+    height: 600px;
     background: honeydew;
+    width: auto;
+}
+.room-columns{
+    /*margin-bottom: 50px;*/
+    padding: 20px 0;
     justify-content: space-around;
     width: auto;
     height: 500px;
@@ -126,14 +131,29 @@
     width: 400px;
     height: 500px;
     border: 2px solid green;
+    border-radius: 10px;
+
 }
 .room-img{
     margin-top: 20px;
     width: 350px;
     height: 300px;
-    border: 2px solid red;
-}
+    border: 2px solid white;
+    border-radius: 10px;
 
+}
+.room-h2{
+    text-align: center;
+    width: 320px;
+
+}
+.room-button{
+    width: 220px;
+    height: 50px;
+    background: aqua;
+    border: 2px blue;
+    border-radius: 10px;
+}
 
 
 /* end body-2 */
