@@ -5,7 +5,8 @@
     list-style: none;
     box-sizing: border-box;
 }
-.navbar{
+
+.navbar {
     /*background-color: gray;*/
     display: flex;
     width: 100%;
@@ -13,6 +14,7 @@
     /*background-color: #106998;*/
     background-image: url("img/navbar.jpg");
 }
+
 .logo {
     /*display: flex;*/
     /*justify-items: flex-end;*/
@@ -25,6 +27,7 @@
     border-radius: 50px;
     background: rgb(187, 175, 151);
 }
+
 .navbar-end {
     color: #362b27;
     margin-left: 250px;
@@ -50,6 +53,11 @@
     height: 40px;
     font-size: 20px;
 }
+
 .logo-h1 {
     font-size: 30px;
+}
+
+.title {
+    padding-top: 70px;
 }
