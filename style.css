@@ -9,7 +9,8 @@
     /*background-color: gray;*/
     display: flex;
     width: 100%;
-    height: 100px;
+    height: 80px;
+    background-image: url("img/navbar.jpg");
 }
 
 .header {
@@ -27,9 +28,9 @@
     margin-top: -50px;
     margin-left: 200px;
     width: 220px;
-    height: 150px;
+    height: 230px;
     border-radius: 50px;
-    background: rgba(224, 185, 115, 1);
+    background: rgb(54, 39, 34);
 }
 
 
@@ -47,29 +48,35 @@
     width: 700px;
     height: 80px;
 }
+.navbar-end{
+    display: flex;
+    flex-wrap: wrap;
 
+}
 .navbar-item {
+    color: lightyellow;
     padding-top: 7px;
     text-align: center;
     width: 150px;
     border-radius: 50px;
-    background-color: rgba(224, 185, 115, 1);
+    background-color: #362722;
     justify-content: space-around;
     margin: 20px 10px;
     height: 40px;
     font-size: 20px;
 }
 
-.welcome {
+/*.welcome {*/
 
-    align-items: center;
-    margin: -200px 200px 0;
-}
+/*    align-items: center;*/
+/*    margin: -200px 200px 0;*/
+/*}*/
 
 .body{
     width: auto;
+    /*margin-top: 50px;*/
     height: 700px;
-    background: honeydew;
+    background: #362722;
 }
 .columns-body{
     display: flex;
@@ -98,7 +105,7 @@
 .niz{
     width: 100%;
     height: 100px;
-    background-color: #004b91;
+    background-color: #362722;
 
 }
 .columns-niz{
@@ -111,8 +118,8 @@
 }
 /* start body-2 */
 .body-2{
-    height: 600px;
-    background: honeydew;
+    height: 670px;
+    background: #362722;
     width: auto;
 }
 .room-columns{
@@ -125,6 +132,7 @@
     flex-wrap: wrap;
 }
 .room-column{
+    background-color: #af95bb;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -150,8 +158,8 @@
 .room-button{
     width: 220px;
     height: 50px;
-    background: aqua;
-    border: 2px blue;
+    background: #95bbaf;
+    border: 2px black;
     border-radius: 10px;
 }
 
