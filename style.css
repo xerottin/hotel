@@ -5,7 +5,8 @@
     list-style: none;
     box-sizing: border-box;
 }
-.navbar{
+
+.navbar {
     /*background-color: gray;*/
     display: flex;
     width: 100%;
@@ -40,26 +41,23 @@
 
 .logo-h1 {
     font-size: 30px;
-
 }
 
 .navbar-end {
     color: #362b27;
     margin-left: 250px;
-    display: inline;
     align-content: space-around;
     justify-content: space-around;
     text-decoration: none;
     width: 700px;
     height: 80px;
-}
-.navbar-end{
     display: flex;
     flex-wrap: wrap;
 
 }
+
 .navbar-item {
-    color: lightyellow;
+    color: black;
     padding-top: 7px;
     text-align: center;
     width: 150px;
@@ -77,57 +75,66 @@
 /*    margin: -200px 200px 0;*/
 /*}*/
 
-.body{
+.body {
     width: auto;
     /*margin-top: 50px;*/
     height: 700px;
     background: #362722;
 }
-.columns-body{
+
+.columns-body {
     display: flex;
     /*flex-wrap: wrap;*/
     justify-content: space-around;
     width: 1300px;
 }
-.column-body{
+
+.column-body {
     padding-left: 50px;
     /*color: wheat;*/
     margin: 20px;
     width: 50%;
     font-size: 25px;
 }
-.columns-footer{
+
+.columns-footer {
     width: 100%;
     display: flex;
     font-size: 25px;
     justify-content: space-around;
 }
-.column-footer{
+
+.column-footer {
     display: flex;
     width: 25%;
     height: auto;
 }
-.niz{
+
+.niz {
     width: 100%;
     height: 100px;
     background-color: #362722;
 
 }
-.columns-niz{
+
+.columns-niz {
     display: flex;
     justify-content: space-around;
     padding-top: 20px;
 }
-.column-niz{
+
+.column-niz {
     display: flex;
 }
+
 /* start body-2 */
-.body-2{
+.body-2 {
     height: 670px;
     background: #362722;
     width: auto;
 }
-.room-columns{
+
+.room-columns {
     /*margin-bottom: 50px;*/
     padding: 20px 0;
     justify-content: space-around;
@@ -136,7 +143,8 @@
     display: flex;
     flex-wrap: wrap;
 }
-.room-column{
+
+.room-column {
     background-color: #a47b51;
     display: flex;
     flex-wrap: wrap;
@@ -147,7 +155,8 @@
     border-radius: 10px;
 
 }
-.room-img{
+
+.room-img {
     margin-top: 20px;
     width: 350px;
     height: 300px;
@@ -155,12 +164,14 @@
     border-radius: 10px;
 
 }
-.room-h2{
+
+.room-h2 {
     text-align: center;
     width: 320px;
 
 }
-.room-button{
+
+.room-button {
     width: 220px;
     height: 50px;
     background: #642c04;
