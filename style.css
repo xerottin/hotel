@@ -38,13 +38,14 @@
     padding-top: 10px;
 }
 .card{
-    width: 400px;
+    width: 420px;
     height: 550px;
 }
 .img-card{
-    width: auto;
-    height: 150px;
+    width: 400px;
+    height: 200px;
 }
+
 .arrow{
 
     width: 40px;
@@ -70,11 +71,11 @@
 
 
 .niz {
-    margin: 15px 0;
+    margin: 10px 0;
     height: 100px;
     background-color: white;
-
 }
+
 
 .columns-niz {
     display: flex;
@@ -99,9 +100,9 @@
 
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-    outline: black;
+    outline: #00b89c;
     border-radius: 50%;
-    border: 3px solid black;
+    border: 5px solid #00b89c;
 
 }
 .carousel{
