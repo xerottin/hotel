@@ -5,3 +5,32 @@
     list-style: none;
     box-sizing: border-box;
 }
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header-start{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 300px;
+    height: 150px;
+}
+.head-contacts{
+    display: flex;
+}
+.call{
+    padding-top: 15px;
+    width: 50px;
+    height: 40px;
+}
+.navbar{
+    margin-top: -30px;
+}
+.nav-button{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
