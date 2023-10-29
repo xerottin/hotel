@@ -110,3 +110,56 @@
 }
 
 /*carousel-end*/
+
+
+
+/* coment */
+.columns-comment{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    width: auto;
+
+}
+
+.card-comment{
+    margin-top: 50px;
+    height: 250px;
+    width: 30%;
+    box-shadow: 10px 10px lightblue;
+
+}
+.card-h6{
+    font-size: 30px;
+    font-weight: 500;
+}
+.card-p{
+    font-style: 25px;
+    font-weight: 400;
+}
+
+/* service */
+.columns-service{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+
+}
+.column-service{
+    width: 33%;
+    height: 300px;
+}
+
+.service-img{
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
