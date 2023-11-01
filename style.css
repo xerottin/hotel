@@ -98,6 +98,9 @@
 }
 
 
+.carousel-inner{
+    padding-top: -50px;
+}
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
     outline: #00b89c;
@@ -105,9 +108,7 @@
     border: 5px solid #00b89c;
 
 }
-.carousel{
-    margin-bottom: 40px;
-}
+
 
 /*carousel-end*/
 
@@ -124,7 +125,7 @@
 }
 
 .card-comment{
-    margin-top: 50px;
+    margin-top: 70px;
     height: 250px;
     width: 30%;
     box-shadow: 10px 10px lightblue;
@@ -145,7 +146,7 @@
     display: flex;
     flex-wrap: wrap;
     width: auto;
-
+    padding: 50px 0 40px;
 }
 .column-service{
     width: 33%;
